@@ -40,19 +40,6 @@ A full-stack URL shortener application built with .NET Core backend and React.js
 
 visit public folder in frontend.
 
-```markdown
-## 📸 Screenshots
-
-### Main Dashboard
-![Dashboard](./screenshots/dashboard.png)
-
-### URL Management
-![URL List](./screenshots/url-list.png)
-
-### Mobile View
-![Mobile](./screenshots/mobile-view.png)
-```
-
 
 ## 📁 Project Structure
 
