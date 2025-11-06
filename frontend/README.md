@@ -22,7 +22,7 @@ A full-stack URL shortener application built with .NET Core backend and React.js
 ## 🛠️ Tech Stack
 
 ### Backend
-- .NET Core 6.0
+- .NET Core 8.0
 - MySQL Database
 - Dapper ORM
 - Stored Procedures
@@ -38,12 +38,7 @@ A full-stack URL shortener application built with .NET Core backend and React.js
 
 ## 📸 Screenshots
 
-To add screenshots to your GitHub README:
-
-1. Take screenshots of your application
-2. Save them in a `screenshots` folder in your project
-3. Upload them to your GitHub repository
-4. Add them to README using markdown:
+visit public folder in frontend.
 
 ```markdown
 ## 📸 Screenshots
