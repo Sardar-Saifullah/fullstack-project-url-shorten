@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "UrlShortener.API.Controllers.UrlController",
+    "Method": "GetAllUrls",
+    "RelativePath": "api/Url",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.API.Controllers.UrlController",
+    "Method": "GetUrlByShortCode",
+    "RelativePath": "api/Url/{shortCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shortCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.API.Controllers.UrlController",
+    "Method": "UpdateUrl",
+    "RelativePath": "api/Url/{shortCode}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shortCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "UrlShortener.API.Models.UpdateUrlRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.API.Controllers.UrlController",
+    "Method": "DeleteUrl",
+    "RelativePath": "api/Url/{shortCode}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shortCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.API.Controllers.UrlController",
+    "Method": "RedirectToOriginalUrl",
+    "RelativePath": "api/Url/{shortCode}/redirect",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shortCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UrlShortener.API.Controllers.UrlController",
+    "Method": "CreateShortUrl",
+    "RelativePath": "api/Url/shorten",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UrlShortener.API.Models.CreateUrlRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
